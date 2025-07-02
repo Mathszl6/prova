@@ -2,7 +2,7 @@ lista = []
 
 while True:
     nome_produto = input('Insira o nome do objeto (Digite 0 se desejar sair): ').lower()
-    avaliacao = int(input('Insira sua nota: '))
+    avaliacao = int(input('Insira sua nota (Digite 0 se desejar sair): '))
 
 
     if nome_produto == '0' and avaliacao == 0:
